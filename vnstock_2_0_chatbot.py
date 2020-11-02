@@ -10,18 +10,18 @@ Original file is located at
 !pip install Flask
 !pip install pymessenger
 !pip install schedule
-!pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.0.0/en_core_web_md-2.0.0.tar.gz
+#!pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.0.0/en_core_web_md-2.0.0.tar.gz
 
-!pip install flask-ngrok flask==0.12.2
+#!pip install flask-ngrok flask==0.12.2
 
 #Python libraries that we need to import for our bot
 import random
 from flask import Flask, request
 from pymessenger.bot import Bot
-from flask_ngrok import run_with_ngrok
+#from flask_ngrok import run_with_ngrok
 
 app = Flask(__name__)
-run_with_ngrok(app)
+#run_with_ngrok(app)
 
 ACCESS_TOKEN = 'EAAV5cyiWGJ4BAB2CM8rOkIZCpcZAGeteIa7LojlbkNuWBJ70pr0gdsY0xFaQYFafTAL2pmaIt7HsmQLexAZBcoSCx5ZB9gjGpL1MOZC5qPJ7bmdOTnWCmiJOx7pflqqbPRn2QlejgvyTwbGuB3pM6hR3ZBFXYn59jWX8AFR1PnBe7lrGZCw5OE3'
 VERIFY_TOKEN = 'LearningEnglish'
