@@ -1,0 +1,1 @@
+web: gunicorn vnstock_2_0_chatbot.wsgi
