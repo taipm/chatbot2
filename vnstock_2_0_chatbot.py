@@ -10,6 +10,7 @@ Original file is located at
 !pip install Flask
 !pip install pymessenger
 !pip install schedule
+!pip install https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.0.0/en_core_web_md-2.0.0.tar.gz
 
 !pip install flask-ngrok flask==0.12.2
 
@@ -84,7 +85,7 @@ def send_message(recipient_id, response):
 if __name__ == "__main__":
     app.run()
 
-send_message("2388099994534010","Hello")
+!pip freeze>requirements.txt
 
 # import schedule
 # import time
@@ -108,9 +109,3 @@ send_message("2388099994534010","Hello")
 
 1) Có tài khoản
 """
-
-!git init
-!git commit -m "first commit"
-!git branch -M main
-!git remote add origin https://github.com/taipm/chatbot2.git
-!git push -u origin main
