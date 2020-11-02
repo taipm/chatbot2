@@ -67,6 +67,8 @@ earthengine-api==0.1.238
 easydict==1.9
 ecos==2.0.7.post1
 editdistance==0.5.3
+en-core-web-md==2.0.0
+en-core-web-sm==2.2.5
 entrypoints==0.3
 ephem==3.7.7.1
 et-xmlfile==1.0.1
@@ -116,6 +118,7 @@ graphviz==0.10.1
 grpcio==1.33.1
 gspread==3.0.1
 gspread-dataframe==3.0.8
+gunicorn==20.0.4
 gym==0.17.3
 h5py==2.10.0
 HeapDict==1.0.1
